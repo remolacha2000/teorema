@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+
+      <h1>DESAFIO 1</h1>
+    </header>
+    <nav>
+      <a href="#Teorema">TEOREMA</a>
+      <a href="#ant">ANTONI ZIGMUND</a>
+      <a href="#img">IMAGEN</a>
+    </nav>
+    <main>
+      <section>
+        <a name="Teorema"></a>
+        <h2>TEOREMA</h2>
+        <p>
+            Sea \(\psi\) una función de Orlicz tal que
+            \[\lim_{u \to \infty } \frac{\psi\left( u \right)}{u\log^{n-1}\left( u \right)} =0 \]
+        </p>
+
+        <p>
+            Entonces cada \(f\in \psi(L)\) excepto las de un conjunto de primera categoría en \(\psi(L)$\) verifica que, para cada rotación \(\gamma\) de \(\mathbb{R}^n\),
+            \[\limsup_{R \in B_n}\frac{1}{\mu(R)}\int_{R}^{}\left| f\left( \gamma\left( y \right) \right) \right|d\mu\left( u \right)= +\infty  \]
+            para casi todo punto \(x\).
+        </p>
+      </section>
+
+      <section>
+        <a id="ant"></a>
+        <h2 >EL PROBLEMA DE ANTONI ZYGMUND.</h2>
+        <p class="texto">
+            Se trata del problema siguiente: sea \([0, \infty)*[0,\infty) \to [0,\infty), \phi (0,0) = 0\)
+            , una función monótona creciente separadamente en cada variable. Por ejemplo, la función:
+            \[\\phi\left( s,t \right)=s^\alpha t^\beta, \hspace{0.5cm} con \hspace{0.2cm}\alpha,\beta>0\]
+        </p>
+        <p>
+            Consideremos la colección biparamétrica \(B_\phi\) de todos los paralelepípedos de \(\mathbb{R}^3\), de lados paralelos a
+            los ejes coordenados y cuyas dimensiones son de la forma: \(s\times t \times \phi(s,t), s,t\in \mathbb{R}^+ \)
+            </p>
+      </section>
+      <a id="img"></a>
+      <img src="pelosd.png" alt="" />
+    </main>
+  </body>
+</html>
